@@ -72,7 +72,7 @@ class _SensorDataDisplayState extends State<SensorDataDisplay> {
 
   Future<void> fetchSensorData() async {
   final apiUrl =
-      'https://api.thingspeak.com/channels/2596814/feeds.json?api_key=FJIGDGIC3F0X15OC&results=1';
+      'https://api.thingspeak.com/channels/CHANNELID_HERE/feeds.json?api_key=WRITE_READAPI&results=1';
 
   try {
     final response = await http.get(Uri.parse(apiUrl));
