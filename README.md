@@ -1,7 +1,7 @@
 <h1 align="center">SMART POWER</h1>
 
 <p align="center">
-  <b>A Smart IoT-Based Power Management System</b>
+  <b>A SMART IOT BASED POWER MANAGEMENT SYSTEM.</b>
 </p>
 
 ## 📜 OVERVIEW
@@ -17,17 +17,13 @@ Smart Power is a versatile IoT project that integrates auto and manual Bluetooth
 ## ✨ FEATURES
 
 1. **Manual Mode**:
-   - Control appliances via a mobile app.
-
+     Control appliances via a mobile app.
 2. **Auto Mode**:
    - Automatically control appliances using sensors.
-
 3. **Water Level Monitoring**:
    - Ultrasonic sensors measure the water level, displayed in the mobile app.
-
 4. **Flutter Mobile App**:
    - Real-time data visualization and control.
-
 5. **Hardware Integration**:
    - Features sensors, relays, and Bluetooth modules for seamless operation.
 
@@ -65,13 +61,15 @@ Smart Power is a versatile IoT project that integrates auto and manual Bluetooth
    - Run the app on an Android or iOS device to connect with the ESP32.
 
 
+📊 DATA VISUALIZATON
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c88bfd5f-a5e9-4a28-a3b7-63e38dfbbaac" alt="Image 1" width="300" style="border: 2px solid black; margin-right: 10px;">
+  <img src="https://github.com/user-attachments/assets/ed1316a3-1e9c-4226-8d89-1ef19049843a" alt="Image 2" width="300" style="border: 2px solid black;">
+</p>
 
 
-## **Flutter UI**
 
-![Screenshot_20241015-173824~2](https://github.com/user-attachments/assets/220dd094-90dd-401d-97c8-dd7bdf289689)
-
-![Screenshot_20241015-193153~3](https://github.com/user-attachments/assets/1344987f-9656-4444-a041-49bb23e89aac)
 
 
 ## **Features**
