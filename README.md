@@ -3,17 +3,10 @@
 <p align="center">
   <b>A Smart IoT-Based Power Management System</b>
 </p>
----
 
 ## 📜 OVERVIEW
 
 Smart Power is a versatile IoT project that integrates auto and manual Bluetooth modes for controlling various devices, such as appliances. It also includes advanced features like water level monitoring and automated light adjustments using LDR sensors. The system is designed to optimize power consumption and improve user convenience.
-
----
-
-## 🔧 HARDWARE SETUP
-
-Below is the hardware setup for the Smart Power project:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/998fc8c0-da0b-4acd-bc8f-a62a7a74a074" alt="IMG_20241118_211742_790~5" width="500">
@@ -39,7 +32,37 @@ Below is the hardware setup for the Smart Power project:
    - Features sensors, relays, and Bluetooth modules for seamless operation.
 
 ---
+## 🚀 HOW TO USE
 
+### Hardware Requirements
+- **ESP32 microcontroller**
+- **LDR Sensor**
+- **Ultrasonic Sensor**
+- **Relay Module**
+- **LEDs**
+- **Fan**
+- **Bluetooth Module**
+
+### Software Requirements
+- **Flutter SDK**
+- **Arduino IDE**
+- **MQTT Broker** (e.g., Mosquitto)
+
+### Steps:
+1. **Set Up the Circuit**:
+   Follow the circuit diagram provided here.
+   
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7d6371a8-b8d9-4295-b440-538811d9f9f8" alt="Circuit Diagram" width="400">
+</p>
+
+2. **Flash the Code**:
+   - Use the Arduino IDE to flash the ESP32 with the provided Arduino code.
+   - Set up the necessary pins and MQTT topics.
+
+3. **Run the Flutter App**:
+   - Open the Flutter project in your IDE.
+   - Run the app on an Android or iOS device to connect with the ESP32.
 
 
 
