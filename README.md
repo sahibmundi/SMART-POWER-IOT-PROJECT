@@ -27,31 +27,31 @@ Smart Power is a versatile IoT project that integrates auto and manual Bluetooth
 
 ---
 ## 🚀 HOW TO USE
-### Hardware Requirements
-- **ESP32 Microcontroller**
-- **LDR Sensor**
-- **Ultrasonic Sensor**
-- **Relay Module**
-- **Appliances To Connect**
+  **HARDWARE REQUIREMENTS:**
+  - ESP32 Microcontroller
+  - LDR Sensor
+  - Ultrasonic Sensor
+  - Relay Module
+  - Appliances To Connect
 
-### Software Requirements
-- **Flutter SDK**
-- **Arduino IDE**
-- **MQTT Broker** (e.g., Mosquitto)
+### SOFTWARE REQUIREMENTS:
+  - Flutter SDK
+  - Arduino IDE
+  - MQTT BROKER 
 
-### Steps:
-1. **Set Up the Circuit**:
+### STEPS TO CONFIGURE::
+  - 1. SET UP THE CIRCUIT:
    Follow the circuit diagram provided here.
    
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7d6371a8-b8d9-4295-b440-538811d9f9f8" alt="Circuit Diagram" width="400">
+  <img src="https://github.com/user-attachments/assets/7d6371a8-b8d9-4295-b440-538811d9f9f8" alt="Circuit Diagram" height="200">
 </p>
 
-2. **Flash the Code**:
+  - 2. FLASH THE CODE:
    - Use the Arduino IDE to flash the ESP32 with the provided Arduino code.
    - Set up the necessary pins and MQTT topics.
 
-3. **Run the Flutter App**:
+  - 3. RUN THE FLUTTER APP:
    - Open the Flutter project in your IDE.
    - Run the app on an Android or iOS device to connect with the ESP32.
 
@@ -59,7 +59,7 @@ Smart Power is a versatile IoT project that integrates auto and manual Bluetooth
 ## 📊 MOBILE APP
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5ee45fd7-467e-48bc-8ee1-a002fa43e4fb" alt="Image" width="400">
+  <img src="https://github.com/user-attachments/assets/5ee45fd7-467e-48bc-8ee1-a002fa43e4fb" alt="Image" height="200">
 </p>
 
 ## 🛠️ TECHNOLOGY USED
@@ -68,7 +68,7 @@ Smart Power is a versatile IoT project that integrates auto and manual Bluetooth
 3. **MQTT Protocol**: For data communication.
 4. **Arduino-IDE**: To program the Microcontroller.
 
-## 🤝 Contributions
+## 🤝 CONTRIBUTIONS
 We welcome contributions! Feel free to open an issue or submit a pull request.
 
 
