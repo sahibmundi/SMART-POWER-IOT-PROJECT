@@ -1,9 +1,48 @@
-# <h1 align="center">SMART POWER</h1>
-## **ABOUT THE PROJECT**
+<h1 align="center">SMART POWER</h1>
 
-This project demonstrates an efficient home automation system using the ESP32 Micro-Controller. The ESP32 is programmed to control devices such as a fan and light, based on inputs from an LDR sensor and an ultrasonic sensor (for water level measurement of water tank). The relay module is used to switch these devices on or off. In addition to the hardware, the system utilizes Wi-Fi connectivity to send sensor data to ThingSpeak for real-time monitoring and data analysis. This project also features a Flutter based mobile application that displays the status of connected devices.
+<p align="center">
+  <b>A Smart IoT-Based Power Management System</b>
+</p>
+---
 
-![IMG-20240914-WA0086~4](https://github.com/user-attachments/assets/8a5ae99b-190b-4098-b106-17600e7bcd23)
+## 📜 OVERVIEW
+
+Smart Power is a versatile IoT project that integrates auto and manual Bluetooth modes for controlling various devices, such as appliances. It also includes advanced features like water level monitoring and automated light adjustments using LDR sensors. The system is designed to optimize power consumption and improve user convenience.
+
+---
+
+## 🔧 HARDWARE SETUP
+
+Below is the hardware setup for the Smart Power project:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/998fc8c0-da0b-4acd-bc8f-a62a7a74a074" alt="IMG_20241118_211742_790~5" width="500">
+</p>
+
+---
+
+## ✨ FEATURES
+
+1. **Manual Mode**:
+   - Control appliances via a mobile app.
+
+2. **Auto Mode**:
+   - Automatically control appliances using sensors.
+
+3. **Water Level Monitoring**:
+   - Ultrasonic sensors measure the water level, displayed in the mobile app.
+
+4. **Flutter Mobile App**:
+   - Real-time data visualization and control.
+
+5. **Hardware Integration**:
+   - Features sensors, relays, and Bluetooth modules for seamless operation.
+
+---
+
+
+
+
 
 ## **Flutter UI**
 
