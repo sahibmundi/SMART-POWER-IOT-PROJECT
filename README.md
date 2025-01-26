@@ -39,8 +39,9 @@ Smart Power is a versatile IoT project that integrates auto and manual modes for
 
 ------------------------------------------------------------------------
  ## 🔧 STEPS TO CONFIGURE
-1. SET UP THE CIRCUIT:
-- ULTRASONIC SENSOR (HCSR04)
+1. SET UP THE CIRCUIT:  
+   Here Is Pins Connection Of Hardware. 
+  - ULTRASONIC SENSOR (HCSR04)
   
 | **PIN**           | **CONNECTION (ESP32)** |
 |-------------------------|------------------|
