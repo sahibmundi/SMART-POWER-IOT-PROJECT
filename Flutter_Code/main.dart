@@ -43,7 +43,7 @@ class _SensorDataDisplayState extends State<SensorDataDisplay> {
 
   List<UltrasonicData> ultrasonicData = [];
   List<LdrData> ldrData = [];
-
+  
   @override
   void initState() {
     super.initState();
@@ -73,7 +73,6 @@ class _SensorDataDisplayState extends State<SensorDataDisplay> {
   Future<void> fetchSensorData() async {
   final apiUrl =
       'https://api.thingspeak.com/channels/CHANNELID_HERE/feeds.json?api_key=WRITE_READAPI&results=1';
-
   try {
     final response = await http.get(Uri.parse(apiUrl));
     if (response.statusCode == 200) {
