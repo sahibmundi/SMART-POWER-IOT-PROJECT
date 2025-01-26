@@ -5,7 +5,7 @@
 
 
 ## 🌟 OVERVIEW
-Smart Power is a versatile IoT project that integrates auto and manual Bluetooth modes for controlling various devices, such as appliances. It also includes advanced features like water level monitoring and automated light adjustments using LDR sensors. The system is designed to optimize power consumption and improve user convenience.
+Smart Power is a versatile IoT project that integrates auto and manual modes for controlling various devices, such as any type of appliances. It also includes advanced features like water level monitoring and automated light adjustments using LDR sensors. The system is designed to optimize power consumption and improve user convenience.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ba3c0a5f-30d9-4069-89d7-d145b5807515" alt="IMG_20241118_211742_790~5" width="500">
@@ -27,19 +27,19 @@ Smart Power is a versatile IoT project that integrates auto and manual Bluetooth
 ------------------------------------------------------------
 ## 🚀 HOW TO USE
    HARDWARE REQUIREMENTS:
-  - ESP32 Microcontroller
-  - LDR Sensor
-  - Ultrasonic Sensor
-  - Relay Module
-
+   - ESP32 Microcontroller
+   - LDR Sensor
+   - Ultrasonic Sensor
+   - Relay Module
+    
   SOFTWARE REQUIREMENTS:
-  - Flutter SDK
-  - Arduino IDE
-  - MQTT BROKER 
+   - Flutter SDK
+   - Arduino IDE
+   - MQTT BROKER
 
-  **STEPS TO CONFIGURE:**
+------------------------------------------------------------------------
+ ## 🔧 STEPS TO CONFIGURE
 1. SET UP THE CIRCUIT:
-
 - ULTRASONIC SENSOR (HCSR04)
   
 | **PIN**           | **CONNECTION (ESP32)** |
@@ -84,14 +84,14 @@ Smart Power is a versatile IoT project that integrates auto and manual Bluetooth
 
 ---------------------------------------------------------------------
 ## 🛠️ TECHNOLOGY USED
-1. **IoT**: ESP32 Microcontroller for hardware integration.
+1. **IoT**: ESP32 for hardware integration.
 2. **Flutter**: Mobile app development.
 3. **MQTT Protocol**: For data communication.
 4. **Arduino-IDE**: To program the Microcontroller.
 
 ----------------------------------------------------------------------
 ## 💡 FUTURE IMPROVEMENTS
-1. Solar panel integration for renewable energy management.
+1. Solar Panel integration for renewable energy management.
 2. Implement machine learning for predictive power usage.
 3. Extend support for smart home devices like ACs or heaters.
 
