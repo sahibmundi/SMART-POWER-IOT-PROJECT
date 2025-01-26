@@ -1,5 +1,4 @@
 <h1 align="center">SMART POWER</h1>
-
 <p align="center">
   <b>A SMART IOT BASED POWER MANAGEMENT SYSTEM.</b>
 </p>
@@ -17,7 +16,7 @@ Smart Power is a versatile IoT project that integrates auto and manual Bluetooth
 ## ✨ FEATURES
 
 1. **Manual Mode**:
-     Control appliances via a mobile app.
+   -  Control connected appliances via a mobile application.
 2. **Auto Mode**:
    - Automatically control appliances using sensors.
 3. **Water Level Monitoring**:
@@ -31,13 +30,11 @@ Smart Power is a versatile IoT project that integrates auto and manual Bluetooth
 ## 🚀 HOW TO USE
 
 ### Hardware Requirements
-- **ESP32 microcontroller**
+- **ESP32 Microcontroller**
 - **LDR Sensor**
 - **Ultrasonic Sensor**
 - **Relay Module**
-- **LEDs**
-- **Fan**
-- **Bluetooth Module**
+- **Appliances To Connect**
 
 ### Software Requirements
 - **Flutter SDK**
@@ -61,42 +58,19 @@ Smart Power is a versatile IoT project that integrates auto and manual Bluetooth
    - Run the app on an Android or iOS device to connect with the ESP32.
 
 
-📊 DATA VISUALIZATON
+## 📊 MOBILE APP
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c88bfd5f-a5e9-4a28-a3b7-63e38dfbbaac" alt="Image 1" width="300" style="border: 2px solid black; margin-right: 10px;">
-  <img src="https://github.com/user-attachments/assets/ed1316a3-1e9c-4226-8d89-1ef19049843a" alt="Image 2" width="300" style="border: 2px solid black;">
+  <img src="https://github.com/user-attachments/assets/5ee45fd7-467e-48bc-8ee1-a002fa43e4fb" alt="Image" width="400">
 </p>
 
+## 🛠️ TECHNOLOGY USED
 
+1. **IoT**: ESP32 Microcontroller for hardware integration.
+2. **Flutter**: Mobile app development.
+3. **MQTT Protocol**: For data communication.
+4. **Arduino-IDE**: To program the Microcontroller.
 
-
-
-## **Features**
-
-Automatic light and fan control based on ambient light levels using an LDR sensor.
-Water level measurement using an ultrasonic sensor, with data available for automation triggers.
-Real-time sensor data visualization on the ThingSpeak IoT platform.
-Control of external devices such as fans and LEDs via relay modules.
-
-## **Tech Stack**
-
-* Arduino IDE : For Coding ESP32 Micro-Controller.
-* ThingSpeak : For cloud data storage and visualization.
-* Flutter : For mobile app UI and real time visualization.
-
-## **Circuit Diagram**
-
-![Circuit Diagram](https://github.com/user-attachments/assets/c3382b42-26e0-45c2-9836-cf9a9cdbbd9f)
-
-## **Working**
-
-* LDR Sensor → ESP32: Represents the light level input.
-* Ultrasonic → ESP32: Measure the water level.
-* ESP32 → Relay Module: Controls the relays based on light conditions.
-* Relay Module → Fan/LED: Turns on or off based on the relay signal.
-* ESP32 → ThingSpeak: Sends data to the cloud.
-* ThingSpeak → Flutter App: Displays data.
 
 
 
