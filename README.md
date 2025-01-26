@@ -3,18 +3,17 @@
   <b>A SMART IOT BASED POWER MANAGEMENT SYSTEM.</b>
 </p>
 
-## 📜 OVERVIEW
 
+## 📜 OVERVIEW
 Smart Power is a versatile IoT project that integrates auto and manual Bluetooth modes for controlling various devices, such as appliances. It also includes advanced features like water level monitoring and automated light adjustments using LDR sensors. The system is designed to optimize power consumption and improve user convenience.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/998fc8c0-da0b-4acd-bc8f-a62a7a74a074" alt="IMG_20241118_211742_790~5" width="500">
+  <img src="https://github.com/user-attachments/assets/9fe7623b-243d-437b-ae29-57c48c6cd75f" alt="IMG_20241118_211700_453~3" width="500">
 </p>
 
 ---
 
 ## ✨ FEATURES
-
 1. **Manual Mode**:
    -  Control connected appliances via a mobile application.
 2. **Auto Mode**:
@@ -28,7 +27,6 @@ Smart Power is a versatile IoT project that integrates auto and manual Bluetooth
 
 ---
 ## 🚀 HOW TO USE
-
 ### Hardware Requirements
 - **ESP32 Microcontroller**
 - **LDR Sensor**
@@ -65,13 +63,13 @@ Smart Power is a versatile IoT project that integrates auto and manual Bluetooth
 </p>
 
 ## 🛠️ TECHNOLOGY USED
-
 1. **IoT**: ESP32 Microcontroller for hardware integration.
 2. **Flutter**: Mobile app development.
 3. **MQTT Protocol**: For data communication.
 4. **Arduino-IDE**: To program the Microcontroller.
 
-
+## 🤝 Contributions
+We welcome contributions! Feel free to open an issue or submit a pull request.
 
 
 
